@@ -1,11 +1,11 @@
-.thestory-section{
+.thestory-section {
     padding: 120px 0;
     background: white;
 
 
 }
 
-.thestory-section .section-content{
+.thestory-section .section-content {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -18,14 +18,15 @@
 
 
 }
-.thestory-section .thestory-image .thestory-image-chef{
+
+.thestory-section .thestory-image .thestory-image-chef {
     width: 100%;
     max-width: 650px;
     border-radius: 15px;
     object-fit: cover;
 }
 
-.section-title{
+.section-title {
     text-align: left;
     font-size: 3.5rem;
     font-weight: 400;
@@ -33,53 +34,53 @@
     line-height: 1.2;
 }
 
-.section-title span{
+.section-title span {
     color: #C5A059;
 }
 
-.thestory-details{
+.thestory-details {
     margin-top: 30px;
 }
 
-.thestory-section .thestory-details .text{
+.thestory-section .thestory-details .text {
     line-height: 30px;
-    font-size:1.125rem;
+    font-size: 1.125rem;
     font-weight: 300;
     color: #4B5563;
     line-height: 30px;
     margin-top: 20px;
-    
+
 }
 
-.thestory-metrics{
-    display:flex;
+.thestory-metrics {
+    display: flex;
     margin-top: 30px;
     gap: 50px;
 }
 
-.thestory-metric{
-    display:flex;
+.thestory-metric {
+    display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
-.thestory-number-metric{
-  
+.thestory-number-metric {
+
     font-weight: 700;
-    font-size:1.75rem;
+    font-size: 1.75rem;
     color: #C5A059;
- text-transform: uppercase;
+    text-transform: uppercase;
 }
 
-.thestory-description-metric{
-     font-weight: 400;    
-     font-size:1.0rem;
+.thestory-description-metric {
+    font-weight: 400;
+    font-size: 1.0rem;
     color: #9CA3AF;
     text-transform: uppercase;
-}   
+}
 
-@media screen and (max-width: 800px){
-    .thestory-section .section-content{
+@media screen and (max-width: 800px) {
+    .thestory-section .section-content {
         display: flex;
         flex-direction: column;
         gap: 50px;
