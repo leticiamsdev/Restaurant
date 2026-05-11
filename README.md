@@ -8,6 +8,14 @@ A responsive landing page built for a fictional high-end restaurant, featuring a
 
 This project is a static website created to practice building interfaces with HTML, CSS, and basic JavaScript. It simulates the online presence of a fine-dining establishment, including a hero section, a story section, a tasting menu showcase, and a simple reservation form layout.
 
+### UX/UI Principles Applied
+
+To create an effective landing page that captures clients' attention and guides them naturally towards booking a table, several design techniques were implemented:
+- **Visual Hierarchy:** Directing the user's focus to key elements like the main headline and primary calls-to-action.
+- **Z-Pattern Layout:** Structuring the content flow to match the natural scanning path of the eye (Standard Z), improving readability and engagement.
+- **Gestalt Principles:** Grouping related elements (like menu items and reservation inputs) so the interface feels intuitive and organized.
+- **Affordance:** Designing interactive elements, such as buttons and form inputs, with clear visual cues so users immediately know they are clickable.
+
 ### Tech Stack
 
 - HTML5
