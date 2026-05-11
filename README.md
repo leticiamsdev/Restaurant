@@ -2,7 +2,7 @@
 
 A responsive landing page built for a fictional high-end restaurant, featuring a clean and elegant design. 
 
-[Veja a página no ar 👆:](https://leticiamsdev.github.io/Restaurant/)
+[Veja a página no ar 👆](https://leticiamsdev.github.io/Restaurant/)
 
 ## Project Overview
 
