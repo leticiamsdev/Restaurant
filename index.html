@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'ESSENCE</title>
+    <link>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#hero_section" class="navbar-logo">
+                <h2 class="logo-text">L'ESSENCE</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#thestory_section" class="nav-link">
+                        THE STORY
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu_section" class="nav-link">
+                        MENU
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reserve_section" class="nav-link">
+                        RESERVE
+                    </a>
+                </li>
+            </ul>
+             <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+
+    </header>
+    <main>
+
+        <section class="hero-section" id="hero_section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <p class="hero-details-since">Est. 1994 | Michelin Star</p>
+                    <h2 class="title">Crafting <br><span>Memories</span> <br>Through Taste.</h2>
+                    <p class="description">Experience a symphony of seasonal ingredients and<br> culinary precision in the heart of the city.</p>
+                    <div class="buttons">
+                        <a href="#reserve_section" class="button book-table">BOOK A TABLE</a>
+                        <a href="#menu_section" class="button view-menu">VIEW MENU</a>
+                    </div>
+                    <!-- <div class="hero-image-wrapper">
+                        <img src="" alt="" class="hero-image">
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+        <section class="thestory-section" id="thestory_section">
+            <div class="section-content">
+                <div class="thestory-image">
+                    <img src="images/chef.png" alt="Chef" class="thestory-image-chef">
+                </div>
+                <div class="thestory-details">
+                    <h2 class="section-title">Culinary Excellence<br> Is Our <span>Heritage<span></h2>
+                    <p class="text">The principle of <b>Similarity</b> in our kitchen means every plate meets the same exacting standard. We believe in <b>Proximity</b> of ingredients—sourcing everything within a 50-mile radius.</p>
+                    <div class="thestory-metrics">
+                        <div class="thestory-metric">
+                            <p class="thestory-number-metric">100%</p>
+                            <p class="thestory-description-metric">Organic Sourced</p>
+                        </div>
+                        <div class="thestory-metric">
+                            <p class="thestory-number-metric">24%</p>
+                            <p class="thestory-description-metric">Master Chefs</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+           <section class="menu-section" id="menu_section">
+                <div class="section-content">
+                    <div class="menu-header">
+                    <span class="line-accent"></span>
+                    <h2 class="menu-section-title">The Tasting Menu</h2>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="images/plate1.png" alt="Wild Salmon Tartare" class="menu-image">
+                            <div class="menu-item-details">
+                                <h3 class="menu-item-details-name">
+                                    Wild Salmon Tartare
+                                </h3>
+                                <h4 class="menu-item-details-price">$24</h4>
+                            </div>
+                            <p class="menu-item-description">Avocado mousse, capers, citrus segments, and toasted brioche.</p>
+                        </li>
+                         <li class="menu-item">
+                            <img src="images/plate2.png" alt="Truffle Risotto" class="menu-image">
+                            <div class="menu-item-details">
+                                <h3 class="menu-item-details-name">
+                                    Truffle Risotto
+                                </h3>
+                                <h4 class="menu-item-details-price">$38</h4>
+                            </div>
+                            <p class="menu-item-description">Carnaroli rice, black winter truffle, aged parmesan, and micro-greens.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/plate3.png" alt="Wagyu Ribeye" class="menu-image">
+                            <div class="menu-item-details">
+                                <h3 class="menu-item-details-name">
+                                    Wagyu Ribeye
+                                </h3>
+                                <h4 class="menu-item-details-price">$65</h4>
+                            </div>
+                            <p class="menu-item-description">A5 Grade Wagyu, smoked potato purée, charred leeks, and red wine jus.</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                </section>
+                <section class="reserve-section" id="reserve_section">
+                    <div class="reserve-header">
+                    
+                        <span class="line-accent"></span>
+                        <h2 class="reserve-section-title">A Table Awaits</h2>
+                        <p class="reserve-section-description">Reserve your journey through flavors today.</p>
+                    </div>
+                    <div class="reserve-box">
+                    <form class="form-group-box">
+
+                         <div class="form">
+                        <div class="form-group">
+                            <label for="res-date" class="form-label">Date</label>
+                            <input type="date" id="res-date" name="date" class="form-input" required>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="res-guests" class="form-label">Guests</label>
+                            <select id="res-guests" name="guests" class="form-input" required>
+                                <option value="" disabled selected>Select number of guests</option>
+                                <option value="2">2 Persons</option>
+                                <option value="4">4 Persons</option>
+                                <option value="6">6+ Persons</option>
+                            </select>
+                            </div>
+                        </div>
+                        <a href="" class=""><button class="reserve-button">Request Reservation</button></a>
+                        </form>
+                    </div>
+
+                </section>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+             <span id="copyright">
+                &copy 2026 L'ESSENCE
+            </span>
+            <div class="footer-social-media">
+                <a href="https://www.instagram.com/" class="social-media">Instagram</a>
+                <a href="https://pt-br.facebook.com/" class="social-media">Facebook</a>
+            </div>
+        </div> 
+    </footer>
+    <script src="javascript/script.js"></script>
+    
+</body>
+</html>

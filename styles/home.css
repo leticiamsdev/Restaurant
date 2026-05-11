@@ -1,0 +1,99 @@
+
+.hero-section{
+    background-color: #121212;
+    min-height: 100vh;
+    color: white;
+    background-image: 
+     linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100%),
+      url(https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2000);
+    /* url(images/backgroundcta.png); */
+    background-size: cover;
+    background-position: center;
+   
+} 
+
+.hero-section .section-content{
+
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+
+    min-height: 100vh;
+    justify-content: flex-start;
+
+}
+
+.hero-section .hero-details .title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size:5rem;
+
+}
+
+.hero-section .hero-details .title span{
+    color: #C5A059;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.hero-section .hero-details .description{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    font-weight: 300;
+    font-size:1.125rem;
+
+}
+
+.hero-details-since{
+    color: #C5A059;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:0.875rem;
+    letter-spacing:0.3em;
+}
+.buttons{
+    margin-top: 3rem;
+    display: flex;
+    /* justify-content: ; */
+    gap: 20px
+}
+
+.button{
+    
+    /* padding: 10px 3; */
+    padding: 1rem 2.5rem;
+    transition: 0.3 ease;
+    border: 2px solid transparent;
+    font-weight:700 ;
+    font-size: 0.75rem;
+    border-radius: 5px;
+        /* borde */
+}
+
+.book-table{
+    background-color: #C5A059;
+    color:white;
+
+    /* borde */
+
+}    
+
+.book-table:hover{
+    transition: 0.3 ease;
+    box-shadow: 0 15px 20px -5px rgba(143, 139, 133, 0.4);
+    transform: translateY(-1px); 
+}
+
+.view-menu{
+    color:white;
+    padding: 1rem 2.5rem;
+    border: 1px solid rgb(155, 149, 149);
+}
+
+.view-menu:hover{
+    color:black;
+    background-color: white;
+}
+
+
